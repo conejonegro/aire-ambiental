@@ -1,0 +1,22 @@
+{
+  "name": "aire-ambiental",
+  "version": "1.0.0",
+  "description": "Website project for aire ambiental",
+  "main": "no",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conejonegro/aire-ambiental.git"
+  },
+  "keywords": [
+    "aire"
+  ],
+  "author": "conejo_negro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conejonegro/aire-ambiental/issues"
+  },
+  "homepage": "https://github.com/conejonegro/aire-ambiental#readme"
+}
