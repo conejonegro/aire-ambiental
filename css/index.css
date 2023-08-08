@@ -1,0 +1,84 @@
+/* Main Css */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.5;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+/* Main Banner */
+.main-banner{
+    background-image: url('/img/background.jpeg');
+    height: 124vw;
+    background-size: cover;
+    background-position: center center;
+    padding: 24% 4%;
+    color: white;
+    text-align: center;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 18px;
+    margin-top: 32px;
+}
+.main-banner h1{
+    font-size: 28px;
+    line-height: 1.5;
+}
+.main-banner p{
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 1.78;
+    font-weight: lighter;
+}
+.navbar-brand img{
+    width: 33%;
+    height: auto;
+}
+.navbar-toggler-icon{
+    background-image: url('../img/ic_menu@3x.png');
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+.navbar-toggler{
+    border: none;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+/* Section title paragraph */
+.title-paragraph h2{
+    color:#151515;
+    font-size: 24px;
+}
+.title-paragraph p{
+    color:#757575;
+}
+
+/* 576px */ /* MEDIA QUERIES */ 
+@media screen and (max-width: 576px) {
+    
+    
+}
+@media screen and (max-width: 768px) {
+    
+    
+}
+@media screen and (max-width: 992px) {
+    
+    
+}
+@media screen and (max-width: 1200px) {
+    
+    
+}
+@media screen and (min-width: 1201px) {
+    
+    
+}
+
+
