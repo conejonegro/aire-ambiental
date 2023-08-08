@@ -1,0 +1,19 @@
+.navbar-brand img{
+    width: 33%;
+    height: auto;
+}
+.navbar-toggler-icon{
+    background-image: url('../img/ic_menu@3x.png');
+    background-size: contain;
+    height: 32px;
+    width: 32px;
+}
+.navbar-toggler{
+    border: none;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
