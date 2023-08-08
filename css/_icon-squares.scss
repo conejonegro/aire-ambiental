@@ -1,0 +1,45 @@
+@mixin square($backgroundColor, $titleColor, $descriptionColor, $backgroundImage){
+    background-color:$backgroundColor;
+    color: $titleColor;
+    border-radius: 18px;
+    min-height: 500px;
+    padding-top: 40px;
+    margin: 32px 0;
+    padding-bottom: 34px;
+    h2{
+        font-weight: 700;
+    }
+    p{
+        color: $descriptionColor;
+        max-width: 85%;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    img{
+        max-width: 12%;
+        margin-bottom: 32px;
+    }
+    .linea{
+        background-image: url($backgroundImage);
+        height: 191px;
+        background-size: cover;
+        background-position: center center;
+        display: block;
+        background-repeat: no-repeat;
+        margin-top: 14%;
+    }
+}
+
+.square-bg{
+    @include square(#2965fe, #FFF, #ffffff, '/img/patron-blanco.png');
+    
+}
+.square-2{
+    @include square(#d6e0ff, #151515, #757575, '/img/patron.png');
+}
+.square-3{
+    @include square(#f3f6ff, #151515, #757575, '/img/patron.png');
+}
+.icon-squares{
+    margin-top:74px
+}
