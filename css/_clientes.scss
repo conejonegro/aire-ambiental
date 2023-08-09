@@ -1,0 +1,15 @@
+.clientes{
+    padding: 40px 32px;
+    .clientes-cont{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 88px;
+        row-gap: 64px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 49px;
+    }
+    img{
+        max-width: 200px;
+    }
+}

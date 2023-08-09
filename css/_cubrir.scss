@@ -2,5 +2,40 @@
     padding: 18% 4%;
     background-color: #f3f6ff;
     margin-top: 20%; 
-    max-width: 300px;
+    p{
+        color: #757575;
+    }
+    .inner-cubrir{
+        background-color: #fff;
+        padding: 8%;
+        margin-top: 18%;
+        border-radius: 18px;
+        h2{
+            font-size: 18px;
+            margin: 44px 0;
+        }
+    }
+    img{
+        border-radius: 18px;
+    }
+    .icon-header{
+        display: flex;
+        flex-direction: row;
+        -moz-column-gap: 22px;
+        column-gap: 22px;
+        margin: 24px 0;
+        row-gap: 41px;
+        padding: 8% 6%;
+        justify-content: stretch;
+        align-items: center;
+        border: 1px solid #efefef;
+        border-radius: 18px;
+        img{
+            max-width: 10%;
+        }
+        h3{
+            margin: 0;
+            font-size: 18px;
+        }
+    }
 }
