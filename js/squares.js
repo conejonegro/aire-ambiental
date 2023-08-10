@@ -8,8 +8,6 @@ function createAppendElement(domElemPath, elemName, content_string) {
 createAppendElement('#cubrir', 'p', 'Contamos con una gran variedad de servicios y productos de calidad que cumplen con los más altos estándares internacionales de desempeño, funcionalidad y eficiencia.');
 createAppendElement('#cubrir', 'h3', 'Servicios para cubrir tus necesidades');
 
-
-
 // function createAppendElement(domElemPath, elemName, htmlString) {
 //     const domElem = document.querySelector(domElemPath);
 //     const el = document.createElement(elemName);

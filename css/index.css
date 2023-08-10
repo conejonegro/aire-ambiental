@@ -151,11 +151,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Manrope", sans-serif;
   line-height: 1.5;
   font-weight: 700;
+  color: #151515;
 }
 
-p {
+p, span {
   font-family: "Inter", sans-serif;
   line-height: 28px;
+  color: #757575;
 }
 
 .title-paragraph h2 {
@@ -188,6 +190,7 @@ p {
 }
 #cubrir img {
   border-radius: 18px;
+  width: 100%;
 }
 #cubrir .icon-header {
   display: flex;
@@ -246,7 +249,96 @@ p {
   margin-top: 49px;
 }
 .clientes img {
-  max-width: 200px;
+  max-width: 156px;
+}
+
+.gran-tamano .gran-cont {
+  background-color: #f3f6ff;
+  padding: 30px;
+  border-radius: 18px;
+  max-width: 95%;
+}
+.gran-tamano .gran-cont img {
+  border-radius: 18px;
+}
+.gran-tamano .gran-cont h3 {
+  margin: 38px 0px 24px;
+  color: #151515;
+}
+.gran-tamano .gran-cont p {
+  color: #757575;
+}
+
+.destacados .destacados-cont {
+  margin: 30% 0;
+  text-align: center;
+}
+.destacados .proyecto {
+  border: 1px solid #e2e2e2;
+  border-radius: 18px;
+  padding: 8%;
+  margin-bottom: 4%;
+}
+.destacados .proyecto img {
+  border-radius: 18px;
+}
+.destacados .proyecto .tag {
+  background-color: #f3f6ff;
+  margin: 18px 0;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-radius: 18px;
+  padding: 6px 14px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  font-weight: 700;
+}
+.destacados .proyecto .tag img {
+  max-width: 18px;
+}
+.destacados .proyecto .nombre-lugar h3 {
+  margin-bottom: 0;
+}
+
+.contacto {
+  background-color: #f3f6ff;
+}
+.contacto .f-enviar {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: #275cff;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 8px;
+}
+.contacto .contacto-title {
+  margin: 42px 0;
+  padding: 64px 12px 32px;
+  text-align: center;
+}
+.contacto .form {
+  background-color: #fff;
+  padding: 32px 12px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+}
+.contacto .form div {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+}
+.contacto .form div input, .contacto .form div textarea {
+  border: 1px solid #eeeeee;
+  border-radius: 12px;
+  padding: 8px 4px;
 }
 
 /* 576px */ /* MEDIA QUERIES *//*# sourceMappingURL=index.css.map */
