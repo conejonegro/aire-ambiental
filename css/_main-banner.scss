@@ -14,10 +14,28 @@
 .main-banner h1{
     font-size: 28px;
     line-height: 1.5;
+    color: #FFF;
 }
 .main-banner p{
     font-size: 18px;
     letter-spacing: .5px;
     line-height: 1.78;
     font-weight: lighter;
+    color: #FFF;
+}
+@media(min-width:768px){
+    .main-banner h1{
+        font-size: 42px;
+    }
+    .main-banner p{
+        font-size: 24px;
+    }
+    .main-banner{
+        height: 116vw;
+    }
+}
+@media(min-width:1200px){
+    .main-banner{
+        height: 20vw;
+    }
 }

@@ -60,7 +60,7 @@
       <p>Realizamos proyectos, instalaciones y servicios en sistemas de aire acondicionado, ofreciendo siempre lo mejor en tecnología, diseño y eficiencia para el óptimo desarrollo de tu proyecto.</p>
     </section>
     <section id="icon_squares" class="container icon-squares text-center">
-      <div>
+      <div class="main-squares-cont">
         <div class="square-bg">
           <img src="img/icon-experiencia.png" alt=""> 
           <h2>Experiencia amplia</h2>
@@ -82,35 +82,39 @@
       </div>
     </section>
     <section id="cubrir">
+		<!-- JAVASCRIPT INJECT SQURES.JS-->
       <div class="inner-cubrir">
-        <h3>Proyectos especializados en sistemas de climatización</h3>
-        <p>Diseñamos sistemas de aire acondicionado, calefacción y ventilación basados en las necesidades de tu proyecto.</br></br>Realizamos un análisis extenso de las instalaciones, tomando en cuenta factores como el tamaño, orientación, ocupación y patrones de uso. Utilizando esta información, diseñamos un sistema de climatización personalizado que se adapte a las necesidades y especificaciones del proyecto. Esto puede incluir la selección del equipo adecuado, así como la identificación de la ubicación y configuración más adecuada.</p>
+				<h3>Proyectos especializados en sistemas de climatización</h3>
+				<p>Diseñamos sistemas de aire acondicionado, calefacción y ventilación basados en las necesidades de tu proyecto.</br></br>Realizamos un análisis extenso de las instalaciones, tomando en cuenta factores como el tamaño, orientación, ocupación y patrones de uso. Utilizando esta información, diseñamos un sistema de climatización personalizado que se adapte a las necesidades y especificaciones del proyecto. Esto puede incluir la selección del equipo adecuado, así como la identificación de la ubicación y configuración más adecuada.</p>
         <img src="/img/placeholder.jpg" alt="">
         <h2>Diseñamos proyectos para distintos mercados</h2>
-        <div class="icon-header">
-          <img src="/img/ic_merc.png" alt="">
-          <h3>Corporativos</h3>
+        <div class="icon-header-cont">
+          <div class="icon-header">
+            <img src="/img/ic_merc.png" alt="">
+            <h3>Corporativos</h3>
+          </div>
+          <div class="icon-header">
+            <img src="/img/ic-naves.png" alt="">
+            <h3>Naves industriales</h3>
+          </div>
+          <div class="icon-header">
+            <img src="/img/ic-hoteles.png" alt="">
+            <h3>Hoteles</h3>
+          </div>
+          <div class="icon-header">
+            <img src="/img/ic-comercial.png" alt="">
+            <h3>Centros comerciales</h3>
+          </div>
+          <div class="icon-header">
+            <img src="/img/ic-departamentos.png" alt="">
+            <h3>Torres de departamentos</h3>
+          </div>
+          <div class="icon-header">
+            <img src="/img/ic-restaurantes.png" alt="">
+            <h3>Restaurantes</h3>
+          </div>
         </div>
-        <div class="icon-header">
-          <img src="/img/ic-naves.png" alt="">
-          <h3>Naves industriales</h3>
-        </div>
-        <div class="icon-header">
-          <img src="/img/ic-hoteles.png" alt="">
-          <h3>Hoteles</h3>
-        </div>
-        <div class="icon-header">
-          <img src="/img/ic-comercial.png" alt="">
-          <h3>Centros comerciales</h3>
-        </div>
-        <div class="icon-header">
-          <img src="/img/ic-departamentos.png" alt="">
-          <h3>Torres de departamentos</h3>
-        </div>
-        <div class="icon-header">
-          <img src="/img/ic-restaurantes.png" alt="">
-          <h3>Restaurantes</h3>
-        </div>
+      </div>
       </div>
     </section>
     <section class="aire-card">
@@ -157,11 +161,12 @@
         <p>Nuestros técnicos están capacitados con las últimas herramientas y equipos para completar grandes instalaciones manera efectiva tanto para propiedades residenciales como comerciales.</p>
       </div>
     </section>
-    <section class=" container destacados">
+    <section class="destacados">
       <div class="destacados-cont">
         <h2>Proyectos destacados</h2>
         <p>Conoce algunos de nuestros proyectos realizados en empresas reconocidas en México.</p>
       </div>
+      <div class="main-proyecto-cont">
       <div class="proyecto">
         <img src="/img/placeholder-2.png" alt="">
         <div class="tag">
@@ -227,6 +232,7 @@
           <h3>Nombre Proyecto</h3>
           <span>Guadalajara, Jalisco</span>
         </div>
+      </div>
       </div>
     </section>
     <section class="contacto">
@@ -238,24 +244,52 @@
         <form action="">
           <div class="f-name">
             <label for="">Nombre:</label>
-            <input id="" type="text" name="name" />
+            <input id="" type="text" name="name" placeholder="Ingresa tu nombre"/>
           </div>
           <div class="f-email">
             <label for="">E-mail:</label>
-            <input id="" type="text" name="email" />
+            <input id="" type="text" name="email" placeholder="nombre@correo.com"/>
           </div>
           <div class="f-asunto">
             <label for="">Asunto:</label>
-            <input id="" type="text" name="asunto" />
+            <input id="" type="text" name="asunto" placeholder="En qué podemos ayudarte?"/>
           </div>
           <div class="f-mensaje">
             <label for="">Mensaje:</label>
-            <textarea id="" rows="5" type="text" name="mensaje" ></textarea>
+            <textarea id="" rows="5" type="text" name="mensaje" placeholder="Háblanos de tu proyecto"></textarea>
           </div>
           <input type="submit" value="Enviar"  class="f-enviar" />
         </form>
       </div>
+		<div class="iconos-final">
+			<div class="iconos-container">
+				<img src="/img/ic_telefono.png" alt="">
+				<h5>Llámanos</h5>
+				<span>Lunes-Viernes de 9:00am a 6:00pm</br><b>(33)38 26 22 15</b></span>
+			</div>
+		</div>
+		<div class="iconos-final">
+			<div class="iconos-container">
+				<img src="/img/ic_correo.png" alt="">
+				<h5>Escríbenos</h5>
+				<span>Envíanos un correo</br><b>proyectos@aacsa.mx</b></span>
+			</div>
+		</div>
+		<div class="iconos-final">
+			<div class="iconos-container">
+				<img src="img/ic_ubicacion.png" alt="">
+				<h5>Visítanos</h5>
+				<span>General Coronado 135, Col. Americana CP 44160, Guadalajara, Jal</span>
+			</div>
+		</div>
     </section>
+	 <footer>
+		<div class="logo-company">
+			<img src="/img/logo.png" alt="">
+			<h3>Transformando la calidad de los ambientes a tu alrededor.</h3>
+			<span>© Aire Ambiental Controlado 2023 | Aviso de Privacidad</span>
+		</div>
+	 </footer>
     <script src="js/squares.js"></script>
 </body>
 </html>

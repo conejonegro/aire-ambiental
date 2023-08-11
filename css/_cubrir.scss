@@ -1,5 +1,5 @@
 #cubrir{
-    padding: 18% 4%;
+    padding: 42px 4%;
     background-color: #f3f6ff;
     margin-top: 20%; 
     p{
@@ -26,17 +26,29 @@
         column-gap: 22px;
         margin: 24px 0;
         row-gap: 41px;
-        padding: 8% 6%;
+        padding: 24px 24px;
         justify-content: stretch;
         align-items: center;
         border: 1px solid #efefef;
         border-radius: 18px;
         img{
-            max-width: 10%;
+            max-width: 54px;
         }
         h3{
             margin: 0;
             font-size: 18px;
         }
+    }
+}
+.icon-header-cont{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: center;
+}
+@media(min-width:992px){
+    #cubrir .icon-header{
+        max-width: 300px;
+        width: 268px;
     }
 }

@@ -1,12 +1,13 @@
-function createAppendElement(domElemPath, elemName, content_string) {
+function createAppendElement(domElemPath, elemName, content_string, className) {
     const domElem = document.querySelector(domElemPath);
     const el = document.createElement(elemName);
     domElem.prepend(el);
     el.innerText = content_string;
+    el.setAttribute('class', className)
 }
 
-createAppendElement('#cubrir', 'p', 'Contamos con una gran variedad de servicios y productos de calidad que cumplen con los más altos estándares internacionales de desempeño, funcionalidad y eficiencia.');
-createAppendElement('#cubrir', 'h3', 'Servicios para cubrir tus necesidades');
+createAppendElement('#cubrir', 'p', 'Contamos con una gran variedad de servicios y productos de calidad que cumplen con los más altos estándares internacionales de desempeño, funcionalidad y eficiencia.', 'text-center');
+createAppendElement('#cubrir', 'h3', 'Servicios para cubrir tus necesidades', 'text-center');
 
 // function createAppendElement(domElemPath, elemName, htmlString) {
 //     const domElem = document.querySelector(domElemPath);

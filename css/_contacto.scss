@@ -1,4 +1,6 @@
 .contacto{
+    background-color: #f3f6ff;
+    padding-bottom: 42px;
     .f-enviar{
         display: block;
         width: 100%;
@@ -10,7 +12,6 @@
         border-radius: 9px;
         padding: 12px 8px;
     }
-    background-color: #f3f6ff;
     .contacto-title{
         margin: 42px 0;
         padding: 64px 12px 32px;
@@ -18,7 +19,7 @@
     }
     .form{
         background-color: #fff;
-        padding: 32px 12px;
+        padding: 18px 16px;
         max-width: 95%;
         margin: 0 auto;
         display: flex;
@@ -31,9 +32,29 @@
             input, textarea{
                 border: 1px solid #eeeeee;
                 border-radius: 12px;
-                padding: 8px 4px;
+                padding: 8px 18px;
+            }
+            label{
+                margin-bottom: 4px;
+            }
+            ::placeholder{
+                color: rgb(185, 185, 185);
             }
             
         }
+    }
+    .iconos-final{
+        margin: 42px 0;
+        img{
+            max-width: 60px;
+            margin-bottom: 24px;
+        }
+    }
+    .iconos-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

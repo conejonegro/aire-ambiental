@@ -1,11 +1,20 @@
 .destacados {
+  .main-proyecto-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
   .destacados-cont {
-    margin: 30% 0;
+    margin: 100px 0;
     text-align: center;
   }
   .proyecto {
     img {
       border-radius: 18px;
+      width: 100%;
     }
     .tag {
       background-color: #f3f6ff;
@@ -23,12 +32,14 @@
     }
     border: 1px solid #e2e2e2;
     border-radius: 18px;
-    padding: 8%;
+    padding: 36px;
     margin-bottom: 4%;
     .nombre-lugar {
       h3 {
         margin-bottom: 0;
+        font-size: 24px;
       }
     }
   }
 }
+

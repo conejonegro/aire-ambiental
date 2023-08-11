@@ -7,3 +7,8 @@ $grayColor : gray;
 .title-paragraph p{
     color: $grayColor;
 }
+@media (min-width:768px){
+    .title-paragraph h2{
+        font-size: 32px;
+    }
+}

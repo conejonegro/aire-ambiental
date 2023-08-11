@@ -8,6 +8,7 @@
     padding-bottom: 34px;
     h2{
         font-weight: 700;
+        color: #FFF;
     }
     p{
         color: $descriptionColor;
@@ -16,17 +17,17 @@
         margin-top: 12px;
     }
     img{
-        max-width: 12%;
+        max-width: 54px;
         margin-bottom: 32px;
     }
     .linea{
         background-image: url($backgroundImage);
-        height: 191px;
+        height: 218px;
         background-size: cover;
         background-position: center center;
         display: block;
         background-repeat: no-repeat;
-        margin-top: 14%;
+        margin-top: 12%;
     }
 }
 
@@ -36,10 +37,37 @@
 }
 .square-2{
     @include square(#d6e0ff, #151515, #757575, '/img/patron.png');
+    h2{
+        color: #151515
+    }
 }
 .square-3{
     @include square(#f3f6ff, #151515, #757575, '/img/patron.png');
+    h2{
+        color: #151515
+    }
 }
 .icon-squares{
     margin-top:80px
+}
+.main-squares-cont{
+    display: flex;
+    column-gap: 24px;
+    h2{
+        font-size: 24px;
+    }
+}
+@media(min-width:768px){
+    .square-bg .linea {
+        height: 289px;
+        margin-top: 3%;
+    }
+    .square-2 .linea{
+        height: 289px;
+        margin-top: 3%;
+    }
+    .square-3 .linea{
+        height: 289px;
+        margin-top: 3%;
+    }
 }

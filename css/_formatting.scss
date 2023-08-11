@@ -9,3 +9,12 @@ p, span{
     line-height: 28px;
     color: #757575;
 }
+
+@media  (min-width: 768px){
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 38px;
+    }
+}
