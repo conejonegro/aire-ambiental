@@ -1,14 +1,18 @@
 #cubrir{
     padding: 42px 4%;
     background-color: #f3f6ff;
-    margin-top: 20%; 
+    margin-top: 64px; 
     p{
         color: #757575;
+    }
+    .title-text-img{
+        display: flex;
+        padding: 24px;
     }
     .inner-cubrir{
         background-color: #fff;
         padding: 8%;
-        margin-top: 18%;
+        margin-top: 64px;
         border-radius: 18px;
         h2{
             font-size: 18px;
@@ -45,6 +49,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
     justify-content: center;
+    max-width: 1140px;
 }
 @media(min-width:992px){
     #cubrir .icon-header{

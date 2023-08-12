@@ -57,6 +57,11 @@
         font-size: 24px;
     }
 }
+@media (max-width: 768px){
+    .main-squares-cont{
+        display: block;
+    }
+}
 @media(min-width:768px){
     .square-bg .linea {
         height: 289px;
