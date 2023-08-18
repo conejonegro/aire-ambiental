@@ -18,7 +18,18 @@
 }
 @media(max-width:1200px){
     .gran-tamano .gran-cont img{
-        width: 100%;
         max-height: 313px;
+    }
+}
+@media(max-width:552px){
+    .gran-tamano .gran-cont img{
+        width: 100%;
+    }
+}
+@media(min-width:992px){
+    .gran-tamano .gran-cont {
+        display: flex;
+        max-width: 1120px;
+        column-gap: 58px;
     }
 }

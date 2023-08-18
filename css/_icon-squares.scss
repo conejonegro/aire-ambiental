@@ -4,7 +4,7 @@
     border-radius: 18px;
     min-height: 500px;
     padding-top: 40px;
-    margin: 32px 0;
+    margin: 64px 0;
     padding-bottom: 34px;
     h2{
         font-weight: 700;
@@ -23,7 +23,7 @@
     .linea{
         background-image: url($backgroundImage);
         height: 218px;
-        background-size: cover;
+        background-size: contain;
         background-position: center center;
         display: block;
         background-repeat: no-repeat;
@@ -57,9 +57,14 @@
         font-size: 24px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
     .main-squares-cont{
         display: block;
+    }
+}
+@media (min-width: 992px){
+    .icon-squares {
+        margin-top: -42px;
     }
 }
 @media(min-width:768px){

@@ -1,5 +1,21 @@
+#navBar{
+    margin: 0 auto;
+    justify-content: center;
+    column-gap: 42px;
+    li{
+        font-weight: 600;
+    }
+    .navbar-brand{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        column-gap: 7px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+}
 .navbar-brand img{
-    width: 33%;
+    width: 35px;
     height: auto;
 }
 .navbar-toggler-icon{

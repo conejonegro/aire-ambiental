@@ -11,3 +11,20 @@ footer{
         color: gray;
     }
 }
+@media(min-width:768px){
+     .contacto{
+        .iconos-finales-section{    
+            display: flex;
+            justify-content: center;
+        }
+        .iconos-final {
+            width: 300px;
+        }
+    }
+    footer{
+        h3{
+            margin-top: 98px;
+        }
+    }
+}
+

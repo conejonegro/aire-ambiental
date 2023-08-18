@@ -13,41 +13,27 @@
     <title>Aire Ambiental</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg" id="navBar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="/img/logo-mobile-x3.png" alt="aire ambiental" width="30" height="24">
+            aire ambiental
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul id="navBar" class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#cubrir">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#destacados">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
     </nav>
@@ -82,7 +68,10 @@
       </div>
     </section>
     <section id="cubrir">
-		<!-- JAVASCRIPT INJECT SQURES.JS-->
+      <div id="cubrir_hijo">
+
+      </div>
+		<!-- JAVASCRIPT INJECT SQUARES.JS-->
       <div class="inner-cubrir">
         <div class="title-text-img">
           <div>
@@ -148,7 +137,7 @@
         </ul>
       </div>
     </section>
-    <section class="clientes">
+    <section class="container clientes">
       <h3>Orgullosos de trabajar con una gran diversidad de compañías</h3>
       <div class="clientes-cont">
         <img src="/img/img_amazon.png" alt="">
@@ -161,12 +150,14 @@
     <section class="gran-tamano">
       <div class="gran-cont container">
         <img src="/img/placeholder.jpg" alt="">
-        <h3>Instalaciones de gran tamaño</h3>
-        <p>Nuestros técnicos están capacitados con las últimas herramientas y equipos para completar grandes instalaciones manera efectiva tanto para propiedades residenciales como comerciales.</p>
+        <div>
+          <h3>Instalaciones de gran tamaño</h3>
+          <p>Nuestros técnicos están capacitados con las últimas herramientas y equipos para completar grandes instalaciones manera efectiva tanto para propiedades residenciales como comerciales.</p>
+        </div>
       </div>
     </section>
-    <section class="destacados">
-      <div class="destacados-cont">
+    <section class="destacados" >
+      <div class="destacados-cont" id="destacados">
         <h2>Proyectos destacados</h2>
         <p>Conoce algunos de nuestros proyectos realizados en empresas reconocidas en México.</p>
       </div>
@@ -239,7 +230,7 @@
       </div>
       </div>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="contacto">
       <div class="contacto-title">
         <h2>Contacto</h2>
         <p>Estamos aquí para ayudarte, envíanos un mensaje y te responderemos lo antes posible.</p>
@@ -265,29 +256,31 @@
           <input type="submit" value="Enviar"  class="f-enviar" />
         </form>
       </div>
-		<div class="iconos-final">
-			<div class="iconos-container">
-				<img src="/img/ic_telefono.png" alt="">
-				<h5>Llámanos</h5>
-				<span>Lunes-Viernes de 9:00am a 6:00pm</br><b>(33)38 26 22 15</b></span>
-			</div>
-		</div>
-		<div class="iconos-final">
-			<div class="iconos-container">
-				<img src="/img/ic_correo.png" alt="">
-				<h5>Escríbenos</h5>
-				<span>Envíanos un correo</br><b>proyectos@aacsa.mx</b></span>
-			</div>
-		</div>
-		<div class="iconos-final">
-			<div class="iconos-container">
-				<img src="img/ic_ubicacion.png" alt="">
-				<h5>Visítanos</h5>
-				<span>General Coronado 135, Col. Americana CP 44160, Guadalajara, Jal</span>
-			</div>
-		</div>
+      <div class="iconos-finales-section">
+        <div class="iconos-final">
+          <div class="iconos-container">
+            <img src="/img/ic_telefono.png" alt="">
+            <h5>Llámanos</h5>
+            <span>Lunes-Viernes de 9:00am a 6:00pm</br><b>(33)38 26 22 15</b></span>
+          </div>
+        </div>
+        <div class="iconos-final">
+          <div class="iconos-container">
+            <img src="/img/ic_correo.png" alt="">
+            <h5>Escríbenos</h5>
+            <span>Envíanos un correo</br><b>proyectos@aacsa.mx</b></span>
+          </div>
+        </div>
+        <div class="iconos-final">
+          <div class="iconos-container">
+            <img src="img/ic_ubicacion.png" alt="">
+            <h5>Visítanos</h5>
+            <span>General Coronado 135, Col. Americana CP 44160, Guadalajara, Jal</span>
+          </div>
+        </div>
+      </div>
     </section>
-	 <footer>
+	 <footer class="container">
 		<div class="logo-company">
 			<img src="/img/logo.png" alt="">
 			<h3>Transformando la calidad de los ambientes a tu alrededor.</h3>

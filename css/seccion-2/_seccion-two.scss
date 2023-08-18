@@ -1,4 +1,4 @@
-$grayColor : gray;
+$grayColor : #757575;
 .title-paragraph h2{
     color:#151515;
     font-size: 24px;
@@ -6,9 +6,22 @@ $grayColor : gray;
 }
 .title-paragraph p{
     color: $grayColor;
+    margin-top: 32px;
 }
 @media (min-width:768px){
     .title-paragraph h2{
         font-size: 32px;
+    }
+}
+@media (min-width:1200px){
+    .title-paragraph 
+        h2  {
+        font-size: 42px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    p{
+        max-width: 800px;
+        margin: 0 auto;
     }
 }

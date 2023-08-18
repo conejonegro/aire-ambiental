@@ -20,4 +20,20 @@
             color: #757575;
         }
     }
+    
+}
+@media(min-width: 992px) {
+    .aire-card{
+        justify-content: center;
+        .aire-card-cont {
+            max-width: 558px;
+            margin: initial;
+            margin-bottom: 42px;
+         }
+    }
+}
+@media(max-width: 768px) {
+    .aire-card{
+        display: block;
+    }
 }
