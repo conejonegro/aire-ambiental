@@ -1,5 +1,11 @@
 .clientes{
+    h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
     padding: 40px 32px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     .clientes-cont{
         display: flex;
         flex-wrap: wrap;
@@ -7,9 +13,10 @@
         row-gap: 64px;
         justify-content: center;
         align-items: center;
-        margin-top: 49px;
+        margin-top: 32px;
     }
     img{
         max-width: 133px;
+        max-height: 56px;
     }
 }

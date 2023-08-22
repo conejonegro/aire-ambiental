@@ -1,14 +1,26 @@
 .gran-tamano{
+    .gran-tamano-bg{
+        background-image: url('../img/patron-nuevo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-left: 64px;
+        padding-right: 158px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .gran-cont{
         background-color: #f3f6ff;
-        padding: 30px;
-        border-radius: 18px;
-        max-width: 95%;
+        border-radius: 16px;
+        padding: 0;
         img{
-            border-radius: 18px; 
+            border-radius: 8px; 
+            margin: 32px;
+            margin-right: 0;
         }
         h3{
-            margin: 38px 0px 24px;
+            margin: 2px 0px 24px;
             color: #151515;
         }
         p{
@@ -24,12 +36,13 @@
 @media(max-width:552px){
     .gran-tamano .gran-cont img{
         width: 100%;
+        max-width: 380px;
     }
 }
 @media(min-width:992px){
     .gran-tamano .gran-cont {
         display: flex;
         max-width: 1120px;
-        column-gap: 58px;
+        
     }
 }

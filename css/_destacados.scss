@@ -13,25 +13,25 @@
   }
   .proyecto {
     img {
-      border-radius: 18px;
+      border-radius: 16px;
       width: 100%;
     }
     .tag {
       background-color: #f3f6ff;
       margin: 18px 0;
       max-width: fit-content;
-      border-radius: 18px;
+      border-radius: 16px;
       padding: 6px 14px;
       display: flex;
       align-items: center;
       column-gap: 7px;
-      font-weight: 700;
+      font-weight: 600;
       img {
         max-width: 18px;
       }
     }
     border: 1px solid #e2e2e2;
-    border-radius: 18px;
+    border-radius: 16px;
     padding: 36px;
     margin-bottom: 4%;
     .nombre-lugar {

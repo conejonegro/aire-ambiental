@@ -1,6 +1,10 @@
 #cubrir{
     #cubrir_hijo{
         padding: 64px;
+        h3{
+            font-size: 40px;
+            line-height: 46px;
+        }
     }
     padding: 42px 4%;
     background-color: #f3f6ff;
@@ -16,13 +20,13 @@
     }
     .title-text-img{
         display: flex;
-        padding: 24px;
+        padding: 16px;
     }
     .inner-cubrir{
         background-color: #fff;
         padding: 8%;
         margin-top: 64px;
-        border-radius: 18px;
+        border-radius: 16px;
         max-width: 1120px;
         margin: 0 auto;
         h2{
@@ -31,24 +35,23 @@
         }
     }
     img{
-        border-radius: 18px;
+        border-radius: 8px;
         width: 100%;
     }
     .icon-header{
         display: flex;
         flex-direction: row;
         -moz-column-gap: 22px;
-        column-gap: 22px;
-        margin: 24px 0;
-        row-gap: 41px;
+        column-gap: 32px;
+        /* margin: 24px 0; */
+        row-gap: 32px;
         padding: 24px 24px;
         justify-content: stretch;
         align-items: center;
         border: 1px solid #efefef;
-        border-radius: 18px;
-        width: 262px;
+        border-radius: 16px;
         img{
-            max-width: 54px;
+            max-width: 32px;
         }
         h3{
             margin: 0;
@@ -60,6 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 32px;
     justify-content: center;
     max-width: 1140px;
 }
@@ -67,20 +71,25 @@
     #cubrir {
         .inner-cubrir {
         background-color: #fff;
-        padding: 2%;
+        padding: 16px;
+        padding-bottom: 32px;
         margin-top: 32px;
         }
         .icon-header{
             max-width: 300px;
             width: 268px;
+            max-height: 82px;
         }
         .icon-header-cont {
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
         }
         .inner-cubrir 
             h2 {
-            margin: 22px 0;
-            font-size: 24px;
+                margin-top: 48px;
+                margin-bottom: 32px;
+            font-size: 18px;
+            line-height: 32px;
         }
     }
 }

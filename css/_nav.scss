@@ -1,8 +1,15 @@
 #navBar{
+    .nav-link {
+     color: black;
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: #265CFF;
+    }
     margin: 0 auto;
     justify-content: center;
     column-gap: 42px;
     padding: 16px 0 2px 0;
+    margin-right: 218px;
     li{
         font-weight: 600;
     }

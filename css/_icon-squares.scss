@@ -1,13 +1,13 @@
 @mixin square($backgroundColor, $titleColor, $descriptionColor, $backgroundImage){
     background-color:$backgroundColor;
     color: $titleColor;
-    border-radius: 18px;
+    border-radius: 16px;
     min-height: 500px;
     padding-top: 40px;
     margin: 64px 0;
     padding-bottom: 34px;
     h2{
-        font-weight: 700;
+        font-weight: 600;
         color: #FFF;
     }
     p{
@@ -42,7 +42,7 @@
     }
 }
 .square-3{
-    @include square(#f3f6ff, #151515, #757575, '../img/patron.png');
+    @include square(#f3f6ff, #151515, #757575, '../img/ondas-3.png');
     h2{
         color: #151515
     }
@@ -74,10 +74,10 @@
     }
     .square-2 .linea{
         height: 289px;
-        margin-top: 3%;
+        margin-top: -4%;
     }
     .square-3 .linea{
         height: 289px;
-        margin-top: 3%;
+        margin-top: -2%;
     }
 }
