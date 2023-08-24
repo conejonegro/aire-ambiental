@@ -4,6 +4,7 @@
         h3{
             font-size: 40px;
             line-height: 46px;
+            margin-bottom: 16px;
         }
     }
     padding: 42px 4%;
@@ -37,6 +38,9 @@
     img{
         border-radius: 8px;
         width: 100%;
+        max-width: 496px;
+        min-width: 560px;
+        max-height: 450px;
     }
     .icon-header{
         display: flex;
@@ -52,6 +56,7 @@
         border-radius: 16px;
         img{
             max-width: 32px;
+            min-width: initial;
         }
         h3{
             margin: 0;
@@ -76,8 +81,8 @@
         margin-top: 32px;
         }
         .icon-header{
-            max-width: 300px;
-            width: 268px;
+            max-width: 330px;
+            width: 330px;
             max-height: 82px;
         }
         .icon-header-cont {
@@ -88,8 +93,9 @@
             h2 {
                 margin-top: 48px;
                 margin-bottom: 32px;
-            font-size: 18px;
-            line-height: 32px;
+                font-size: 18px;
+                line-height: 32px;
+                margin-left: 23px;
         }
     }
 }

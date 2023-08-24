@@ -8,7 +8,7 @@
     margin: 0 auto;
     justify-content: center;
     column-gap: 42px;
-    padding: 16px 0 2px 0;
+    padding: 0px 0 0px 0;
     margin-right: 218px;
     li{
         font-weight: 600;
@@ -20,6 +20,7 @@
         column-gap: 7px;
         font-weight: 600;
         font-size: 28px;
+        padding: 0;
     }
 }
 .navbar-brand img{
@@ -40,4 +41,7 @@
 }
 .navbar-toggler:focus{
     box-shadow: none;
+}
+#navBar.navbar{
+    padding: 32px;
 }

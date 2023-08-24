@@ -1,19 +1,29 @@
 .destacados {
+  h2{
+    font-size: 40px;
+    line-height: 56px;
+  }
   .main-proyecto-cont{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 24px;
+    column-gap: 32px;
     max-width: 1440px;
     margin: 0 auto;
   }
   .destacados-cont {
     text-align: center;
-    padding: 100px 0;
+    padding: 96px 0;
   }
   .proyecto {
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 4%;
+    max-width: 352px;
+    margin-bottom: 32px;
     img {
-      border-radius: 16px;
+      border-radius: 8px;
       width: 100%;
     }
     .tag {
@@ -29,11 +39,10 @@
       img {
         max-width: 18px;
       }
+      span{
+        color: #151515;;
+      }
     }
-    border: 1px solid #e2e2e2;
-    border-radius: 16px;
-    padding: 36px;
-    margin-bottom: 4%;
     .nombre-lugar {
       h3 {
         margin-bottom: 0;

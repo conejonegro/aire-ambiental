@@ -1,6 +1,6 @@
 .main-banner{
     background-image: url('../img/background.jpeg');
-    height: 140vw;
+    height: 680px;
     background-size: cover;
     background-position: center center;
     color: white;
@@ -8,7 +8,6 @@
     max-width: 95%;
     margin: auto;
     border-radius: 16px;
-    margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,8 +15,9 @@
     padding: 0 24px;
 }
 .main-banner h1{
-    font-size: 28px;
-    line-height: 1.2;
+    font-size: 64px;
+    line-height: 80px;
+    max-width: 800px;
     color: #FFF;
 }
 .main-banner p{
@@ -27,25 +27,30 @@
     font-weight: lighter;
     color: #FFF;
 }
-@media(min-width:768px){
+@media(max-width:768px){
     .main-banner h1{
         font-size: 42px;
+        line-height: 80px;
+        max-width: 800px;
     }
     .main-banner p{
         font-size: 18px;
     }
     .main-banner{
-        height: 116vw;
+        height: 680px;
     }
 }
 @media(min-width:1200px){
     .main-banner{
-        height: 38vw;
+        height: 680px;
         max-height: 680px;
         h1{
             font-size: 64px;
             max-width: 800px;
             line-height: 64px;
+        }
+        p{
+            max-width: initial;
         }
     }
 }
