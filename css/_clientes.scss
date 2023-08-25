@@ -3,15 +3,16 @@
         font-size: 18px;
         line-height: 32px;
     }
-    padding: 40px 32px;
+    padding: 40px 0;
     padding-bottom: 80px;
     padding-top: 80px;
+    max-width: 1120px;
     .clientes-cont{
         display: flex;
         flex-wrap: wrap;
-        column-gap: 88px;
+        column-gap: 78px;
         row-gap: 64px;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin-top: 32px;
     }

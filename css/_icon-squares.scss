@@ -2,19 +2,19 @@
     background-color:$backgroundColor;
     color: $titleColor;
     border-radius: 16px;
-    min-height: 500px;
-    padding-top: 40px;
+    min-height: 496px;
+    padding-top: 32px;
     margin: 64px 0;
-    padding-bottom: 34px;
+    height: 496px;
     h2{
         font-weight: 600;
         color: #FFF;
     }
     p{
-        color: $descriptionColor;
-        max-width: 85%;
+        color: $descriptionColor;;
         margin: 0 auto;
         margin-top: 12px;
+        padding: 0 54px;
     }
     img{
         max-width: 54px;
@@ -22,7 +22,7 @@
     }
     .linea{
         background-image: url($backgroundImage);
-        height: 218px;
+        height: 182px;
         background-size: contain;
         background-position: center center;
         display: block;
@@ -42,7 +42,7 @@
     }
 }
 .square-3{
-    @include square(#f3f6ff, #151515, #757575, '../img/ondas-3.png');
+    @include square(#f3f6ff, #151515, #757575, '../img/img_patron_chico_03@3x.png');
     h2{
         color: #151515
     }
@@ -64,20 +64,20 @@
 }
 @media (min-width: 992px){
     .icon-squares {
-        margin-top: -42px;
+        margin-top: -32px;
     }
 }
 @media(min-width:768px){
     .square-bg .linea {
-        height: 289px;
-        margin-top: 3%;
+        height: 182px;
+        margin-top: 32px;
     }
     .square-2 .linea{
-        height: 289px;
-        margin-top: -4%;
+        height: 182px;
+        margin-top: 32px;
     }
     .square-3 .linea{
-        height: 289px;
-        margin-top: -2%;
+        height: 182px;
+        margin-top: 32px;
     }
 }
