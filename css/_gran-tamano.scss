@@ -41,11 +41,19 @@
     }
 }
 @media(max-width:552px){
-    .gran-tamano .gran-cont img{
-        width: 100%;
-        max-width: 380px;
-    }
+    .gran-tamano{ 
+        .gran-tamano-bg{
+            width: 100%;
+            padding: 12px;
+        }
+        .gran-cont img{
+            width: 100%;
+            padding: 12px;
+            margin: initial;
+        }
+        }
 }
+
 @media(min-width:992px){
     .gran-tamano .gran-cont {
         display: flex;

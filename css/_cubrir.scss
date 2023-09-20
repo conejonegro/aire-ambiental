@@ -100,7 +100,12 @@
     }
 }
 @media(max-width:992px){
-    #cubrir .title-text-img {
-        display: block; 
+    #cubrir{  
+            img{
+                min-width: initial;
+            }
+        .title-text-img {
+            display: block; 
+        }
     }
 }
