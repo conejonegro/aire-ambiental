@@ -39,7 +39,7 @@
     @include square(#d6e0ff, #151515, #757575, '../img/patron.png');
 }
 .square-3{
-    @include square(#f3f6ff, #151515, #757575, '../img/ttt.png');
+    @include square(#f3f6ff, #151515, #757575, '../img/patron-1023-ultimo.png');
 }
 .icon-squares{
     margin-top:80px
@@ -79,7 +79,6 @@
             margin-top: 4%;
             height: 254px;
         }
-        
     }
     .square-3{
         @include square(#d6e0ff, #151515, #757575, '../img/patron-1023-ultimo.png');
@@ -87,7 +86,6 @@
             margin-top: 4%;
             height: 254px;
         }
-        
     }
     .main-squares-cont{
         display: block;
