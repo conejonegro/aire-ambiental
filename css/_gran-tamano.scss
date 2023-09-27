@@ -35,9 +35,19 @@
         }
     }
 }
-@media(max-width:1200px){
+@media(max-width:1024px){
+    .gran-tamano{
+        .gran-tamano-bg{
+            width: 100%;
+            padding: 32px;
+        }
+    }
     .gran-tamano .gran-cont img{
-        max-height: 313px;
+        max-height: initial;
+    width: 100%;
+    padding: 32px;
+    margin: 0;
+    height: initial;
     }
 }
 @media(max-width:552px){

@@ -53,13 +53,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .destacados{
     .proyecto{
-      width: 100%;
-      max-width: initial;
-      margin-left: 16px;
-      margin-right: 16px;
+      width: 100% !important;
+    max-width: 100%;
+    margin-left: 32px;
+    margin-right: 32px;
     }
   }
 }

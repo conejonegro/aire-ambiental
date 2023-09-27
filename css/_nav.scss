@@ -45,3 +45,8 @@
 #navBar.navbar{
     padding: 32px;
 }
+@media(max-width:1024px){
+    #navBar.navbar {
+        margin-right: initial;
+    }
+}
