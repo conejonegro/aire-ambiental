@@ -38,8 +38,18 @@
 .square-2{
     @include square(#d6e0ff, #151515, #757575, '../img/patron.png');
 }
-.square-3{
-    @include square(#f3f6ff, #151515, #757575, '../img/patron-1023-ultimo.png');
+.new-background-lines{
+   background-color: #2965fe;
+   color: #151515;
+}
+.new-background-lines .linea{
+   background-image: url(../img/patron-blanco.png);
+}
+.new-background-lines h2{
+   color: #ffffff;
+}
+.new-background-lines p{
+   color: #ffffff;
 }
 .icon-squares{
     margin-top:80px
@@ -65,6 +75,33 @@
         margin-top: 32px;
     }
 }
+@media (max-width: 1400px){
+    .square-bg .linea {
+       
+    }
+    .square-2 .linea{
+        height: 182px;
+        margin-top: 5px;
+    }
+    .new-background-lines .linea{
+        height: 182px;
+        margin-top: 5px !important;
+    }
+}
+@media (max-width: 1200px){
+    .square-bg .linea {
+        margin-top: -22px;
+    }
+    .square-2 .linea{
+        height: 182px;
+        margin-top: 32px;
+    }
+    .new-background-lines .linea{
+        height: 182px;
+        margin-top: 4px !important;
+    }
+}
+
 @media (max-width: 1023px){
     .square-bg{
         @include square(#2965fe, #FFF, #ffffff, '../img/patron-1-max-1023.png');
